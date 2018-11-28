@@ -15,7 +15,7 @@ Collaborators on this project: Mike Filicetti & Andrew Hinojosa
 *Finish:
 *Actual:
 
- Feature #3: Style The Application
+Feature #3: Style The Application
 *Estimated:
 *Start:
 *Finish:
