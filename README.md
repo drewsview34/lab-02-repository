@@ -3,13 +3,13 @@
 
 Collaborators on this project: Mike Filicetti & Andrew Hinojosa
 
-Feature #1: Display Images
+ Feature #1: Display Images
 *Estimated: 1 Hour
 *Start: 10a
 *Finish: 11:15a
 *Actual: 1.25 Hours
 
-Feature #2: Filter Images
+ Feature #2: Filter Images
 *Estimated:
 *Start:
 *Finish:
