@@ -34,6 +34,16 @@ Horn.readJson = () => {
     .then(Horn.loadHorns);
 };
 
+// Horn.loadJson = () => {
+//   $.get('./data/page-2.json', 'json')
+//     .then(data => {
+//       data.forEach(obj => {
+//         Horn.allHorns.push(new Horn(obj));
+//       });
+//     })
+//     .then(Horn.loadHorns);
+// };
+
 function populateDropDown() {
 
   $.getJSON('/getData.aspx', { Name:$('#parm').val()}, function(data) {
@@ -64,4 +74,5 @@ Horn.loadHorns = () => {
   Horn.allHorns.forEach(horn => horn.render());
 };
 
+$()
 $(() => Horn.readJson());
