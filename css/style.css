@@ -1,8 +1,3 @@
-main {
-  overflow-x: hidden;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 div img {
   width: 10vw;
   height: 100%;
@@ -15,6 +10,14 @@ select {
   font-size: 1.5vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-bottom: 2vw;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 960px;
+  align-content: space-between;
 }
 
 header h1 {
@@ -35,9 +38,7 @@ div {
   width: 18vw;
   margin-left: 1vw;
   margin-right: 0.5vw;
-  height: 100%;
   word-wrap: normal;
-  display: inline-block;
 }
 
 div h2 {
@@ -48,27 +49,19 @@ div p {
   height: 12vw;
 }
 
-footer {
-  width: 100%;
+#pagination {
+  width: 100vw;
   height: 3vw;
-  float: left;
-  bottom: 0;
-  text-align: center;
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
+button {
+  margin-right: 0 auto;
+  margin-left: 0 auto;
 }
-        
-.pagination {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-        
-.pagination li {
-    margin: 0 1px;
-    bottom: 0;
+
+footer {
+  width: 100vw;
+  height: 3vw;
+  bottom: 0;
+  text-align: center;
 }
