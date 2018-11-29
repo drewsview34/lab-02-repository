@@ -34,7 +34,33 @@ Horn.readJson = () => {
     .then(Horn.loadHorns);
 };
 
+function populateDropDown() {
+
+  $.getJSON('/getData.aspx', { Name:$('#parm').val()}, function(data) {
+
+    var select = $('#DDLControl');
+    var options = select.attr('options');
+    $('option', select).remove();
+
+    $.each(data, function(index, array) {
+      options[options.length] = new Option(array['variety']);
+    });
+
+  });
+
+}
+
+$(document).ready(function() {
+
+  populateDropDown();
+  $('#DDLchangeData').change(function() {
+    populateDropDown();
+  });
+
+});
+
 Horn.loadHorns = () => {
+
   Horn.allHorns.forEach(horn => horn.render());
 };
 
