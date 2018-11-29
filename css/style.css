@@ -1,4 +1,57 @@
-img {
+main {
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div img {
   width: 10vw;
   height: 100%;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  width: 15vw;
+  font-size: 1.5vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 2vw;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 10vw;
+  font-family: 'Caesar Dressing', cursive;
+  margin-bottom: 2vw;
+}
+
+#photo-template {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  width: 18vw;
+  margin-left: 1vw;
+  margin-right: 0.5vw;
+  height: 100%;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+div h2 {
+  font-size: 2vw;
+}
+
+div p {
+  height: 12vw;
+}
+
+footer {
+  width: 100%;
+  height: 3vw;
+  float: left;
+  bottom: 0;
+  text-align: center;
 }

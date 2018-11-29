@@ -40,6 +40,7 @@ Lab03 Feature #2: Templating
 *Actual:
 
 Lab03 Feature #3: Styling With Flexbox
+
 *Estimated:
 *Start:
 *Finish:
